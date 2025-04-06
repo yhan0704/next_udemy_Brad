@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <>
       <Button>Button</Button>
-      <div>awefawe3111sadfasdff1f</div>
+      <div>awefawe3111sadfaadfsdff1f</div>
     </>
   );
 }
