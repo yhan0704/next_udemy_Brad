@@ -16,6 +16,7 @@ const ModeToggle = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
+  //next-themes needs the window object which isn’t available during server-side rendering.
   useEffect(() => {
     setMounted(true);
   }, []);
