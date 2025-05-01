@@ -20,7 +20,6 @@
 # production
 /build
 /db
-/lib
 
 # misc
 .DS_Store
