@@ -211,8 +211,8 @@ export namespace Prisma {
   export import Exact = $Public.Exact
 
   /**
-   * Prisma Client JS version: 6.7.0
-   * Query Engine version: 3cff47a7f5d65c3ea74883f1d736e41d68ce91ed
+   * Prisma Client JS version: 6.5.0
+   * Query Engine version: 173f8d54f8d52e692c7e27e72a88314ec7aeff60
    */
   export type PrismaVersion = {
     client: string
@@ -760,7 +760,7 @@ export namespace Prisma {
     /**
      * Instance of a Driver Adapter, e.g., like one provided by `@prisma/adapter-planetscale`
      */
-    adapter?: runtime.SqlDriverAdapterFactory | null
+    adapter?: runtime.DriverAdapter | null
     /**
      * Global configuration for omitting model fields by default.
      * 
@@ -1645,7 +1645,7 @@ export namespace Prisma {
 
   /**
    * Fields of the Product model
-   */
+   */ 
   interface ProductFieldRefs {
     readonly id: FieldRef<"Product", 'String'>
     readonly name: FieldRef<"Product", 'String'>
@@ -2086,7 +2086,7 @@ export namespace Prisma {
 
 
   /**
-   * Field references
+   * Field references 
    */
 
 
